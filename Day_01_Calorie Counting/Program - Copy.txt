@@ -1,0 +1,63 @@
+﻿/*
+// See https://aka.ms/new-console-template for more information
+// Console.WriteLine("Hello, World!");
+
+
+void Do(string entrada)
+{
+    //string entry = "";
+    int max = 0;
+    int temp = 0;
+    int actual = 0;
+    int lleva = 0;
+
+    foreach (var entry in entrada.Split(","))
+    {
+        if (entry != "")
+        {
+            actual += int.Parse(entry.Trim());
+            if (actual > max)
+            {
+                max += actual;
+                actual = 0;
+            }
+            actual = 0;
+            lleva = 0;
+        }
+        //else
+        //{
+        //    lleva++;
+        //}
+
+    }
+
+    Console.WriteLine($"La sumatoria del reno con mayor calorias es: {max}");
+    //do
+    //{
+    //    //entry = Console.ReadLine();
+
+    //    if (entry != "")
+    //    {
+    //        actual += int.Parse(entry.Trim());
+    //        if (actual > max)
+    //        {
+    //            max += actual;
+    //            actual = 0;
+    //        }
+    //        actual = 0;
+    //        lleva = 0;
+    //    }
+    //    else
+    //    {
+    //        lleva++;
+    //    }
+    //}
+    //while (lleva != 2);
+
+    Console.WriteLine($"La sumatoria del reno con mayor calorias es: {max}");
+}
+
+Do("1000,2000,3000,,4000,,5000,6000,,7000,8000,9000,,10000,,,,");
+*/
+
+

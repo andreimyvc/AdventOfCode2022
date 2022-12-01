@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Day_01_Calorie_Counting</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Program - Copy.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Program - Copy.txt" />
+  </ItemGroup>
+
+</Project>
