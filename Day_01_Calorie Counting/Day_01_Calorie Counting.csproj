@@ -16,4 +16,10 @@
     <Compile Include="Program - Copy.txt" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Data\entrada1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
