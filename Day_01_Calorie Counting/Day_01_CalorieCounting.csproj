@@ -9,15 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Program - Copy.txt" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="Program - Copy.txt" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Data\entrada1.txt">
+    <None Update="Input\input_day_1.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
